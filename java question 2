@@ -1,0 +1,21 @@
+import java.util.*;
+
+class Main {
+    public static void main(String[] args) {
+        int integerValue=42;
+        double doubleValue=6.28;
+        char characterValue='A';
+        boolean booleanValue=true;
+        System.out.println("All values before conversion are");
+        System.out.println("integer value: "+integerValue);
+        System.out.println("double value: "+doubleValue);
+        System.out.println("character: "+characterValue);
+        System.out.println("boolean value: "+booleanValue);
+        double int_converted_to_double=integerValue;
+        int char_converted_to_int=characterValue;
+        System.out.println("values after conversion are");
+        System.out.println("integer converted to double: "+int_converted_to_double);
+        System.out.println("Character converted to integer: "+char_converted_to_int);
+        
+    }
+}
